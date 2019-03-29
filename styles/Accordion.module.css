@@ -1,0 +1,15 @@
+/* Accordion Item */
+
+.accordionItem{
+    cursor: pointer;
+}
+
+.itemText{
+    margin-top: 1.5%;
+}
+
+/* Accordion */
+
+.noBorders{
+    border: 0 none;
+}

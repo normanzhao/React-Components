@@ -1,0 +1,18 @@
+.imageUploadInput{
+    display: none;
+}
+
+.image{
+    min-width: 200px;
+    height: 150px;
+    box-shadow: 0 0 0px 0px gainsboro;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image:hover{
+    box-shadow: 0 0 5px 10px gainsboro;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
