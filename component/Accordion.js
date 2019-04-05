@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {ListGroup } from 'react-bootstrap';
 import AccordionItem from './AccordionItem';
-import styles from '../styles/Accordion.module.css';
+import styles from '../../styles/Shared/Accordion.module.css';
 
 export default class Accordion extends Component {
     renderItems = () => {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, Collapse } from 'react-bootstrap';
-import styles from '../styles/Accordion.module.css';
+import styles from '../../styles/Shared/Accordion.module.css';
 
 export default class AccordionItem extends Component {
     constructor(props){

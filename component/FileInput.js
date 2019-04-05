@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Image } from 'react-bootstrap';
-import styles from '../styles/FileInput.module.css';
+import styles from '../../styles/Shared/FileInput.module.css';
 
 
 import AddImage from '../../assets/add_image.svg';
@@ -37,7 +37,7 @@ export default class FileInput extends Component {
                 <Form.Control as="input" type="file" disabled={this.props.disabled}/>
             </Form.Group>
             <Form.Label htmlFor="image_upload">
-                <Image src={this.state.imagePreview === null ? AddImage : this.state.imagePreview} fluid thumbnail className={styles.image}/>
+                <Image src={(this.state.imagePreview === undefined || this.state.imagePreview === null) ? AddImage : this.state.imagePreview} fluid thumbnail className={styles.image}/>
             </Form.Label>
         </Form.Group>
     );
